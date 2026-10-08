@@ -79,3 +79,4 @@ or retest result is available.
 The remaining 15 failed tests are listed in the execution report. They require
 trace review and targeted reruns to distinguish application defects from
 automation, data, or environment issues before they are logged as defects.
+./config.cmd --url https://github.com/massmutual-git/auto_web_SupCentral_Rewrite --token BPA6Y5VUVTQM77UQNJEFPOTKY532O
