@@ -1,0 +1,23 @@
+{
+  "name": "insurance-order-entry-playwright",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright TypeScript UI tests for the insurance order entry demo",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:smoke": "playwright test tests/smoke.spec.ts",
+    "test:auth": "playwright test tests/auth.spec.ts",
+    "test:client": "playwright test tests/client.spec.ts",
+    "test:api": "playwright test tests/api.spec.ts",
+    "test:modules": "playwright test tests/dashboard.spec.ts tests/products.spec.ts tests/riders-beneficiaries.spec.ts tests/documents-workflow.spec.ts",
+    "test:list": "playwright test --list",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "@types/node": "^24.0.0",
+    "dotenv": "^16.4.7",
+    "typescript": "^5.9.0"
+  }
+}
